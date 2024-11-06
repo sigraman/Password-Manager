@@ -10,11 +10,10 @@
            Grid.Row="0"
            Grid.Column="0"
            HorizontalTextAlignment="Center"
-           Margin="0,50,0,0"
+           Margin="0,30,0,0"
            Text="Welcome to Password Manager"
            FontSize="30"/>
         <Border
-           BackgroundColor="#313131"
            Grid.Row="1"
            Grid.Column="1"
            HeightRequest="300"
@@ -49,10 +48,11 @@
                 <Button
                    Grid.Row="2"
                    Grid.Column="0"
-                   WidthRequest="350"
+                   WidthRequest="450"
                    HeightRequest="50"
                    Text="Sign In"
-                   Clicked="SignIn"/>
+                   Clicked="SignIn"
+                   BackgroundColor="Purple"/>
 
 
             </Grid>

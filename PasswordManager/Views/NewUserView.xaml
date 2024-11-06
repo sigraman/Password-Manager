@@ -63,23 +63,15 @@
                     TextColor="White" 
                     Margin="30,20,30,0"/>
 
-
-                    <Button
-     Text="Already have an account"
-     TextColor="White"
-     Margin="0,14,0,0"
-     x:Name="Login"
-     Clicked="LoginBtn"
-     HorizontalOptions="Center" 
-    BackgroundColor="Transparent"/>
-
                     <Button
                     Text="Create Account"
                     TextColor="Black"
                     Margin="0,34,0,0"
                     x:Name="CreateAccountButton"
                     Clicked="CreateAccBtn"
-                    HorizontalOptions="Center" />
+                    HorizontalOptions="Center"
+                    BackgroundColor="Purple"
+                    WidthRequest="300"/>
 
 
                 </VerticalStackLayout>
