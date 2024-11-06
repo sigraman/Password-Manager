@@ -1,0 +1,1 @@
+C:\Users\sigra\OneDrive\Desktop\Code 1\PasswordManager\PasswordManager\PasswordManager.csproj;x64

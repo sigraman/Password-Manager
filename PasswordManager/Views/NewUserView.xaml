@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PasswordManager.Views.NewUserView"
+             Title="NewUserView">
+    <ScrollView
+    Orientation="Both">
+
+        <VerticalStackLayout>
+            <Label 
+            Text="Welcome to Password Manager"
+            VerticalOptions="Start" 
+            TextColor="White"
+            FontSize="25"
+            Margin="0,80,0,0"
+            HorizontalOptions="Center" />
+
+
+            <Border
+            WidthRequest="400"
+            HeightRequest="520"
+            HorizontalOptions="Center"
+            Margin="0,20,0,0"
+            VerticalOptions="Center">
+
+                <VerticalStackLayout>
+                    <Label 
+            Text="Error Message!!!"
+            x:Name="ErrorMessage"
+            IsVisible="False"
+           Margin="0,10,0,0"
+            TextColor="Red"
+            FontSize="15"
+            HorizontalOptions="Center" />
+
+                    <Entry
+                    Placeholder="First Name"
+                    x:Name="FirstName"
+                    TextColor="White" 
+                    Margin="30,20,30,0"/>
+
+                    <Entry
+                    Placeholder="Last Name"
+                    x:Name="LastName"
+                    TextColor="White" 
+                    Margin="30,20,30,0"/>
+
+                    <Entry
+                    Placeholder="Username"
+                    x:Name="UserName"
+                    TextColor="White" 
+                    Margin="30,20,30,0"/>
+
+                    <Entry
+                    Placeholder="Password"
+                    x:Name="Password"
+                    TextColor="White" 
+                    Margin="30,20,30,0"/>
+
+                    <Entry
+                    Placeholder="Re-Enter Password"
+                    x:Name="RePassword"
+                    TextColor="White" 
+                    Margin="30,20,30,0"/>
+
+
+                    <Button
+     Text="Already have an account"
+     TextColor="White"
+     Margin="0,14,0,0"
+     x:Name="Login"
+     Clicked="LoginBtn"
+     HorizontalOptions="Center" 
+    BackgroundColor="Transparent"/>
+
+                    <Button
+                    Text="Create Account"
+                    TextColor="Black"
+                    Margin="0,34,0,0"
+                    x:Name="CreateAccountButton"
+                    Clicked="CreateAccBtn"
+                    HorizontalOptions="Center" />
+
+
+                </VerticalStackLayout>
+
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
